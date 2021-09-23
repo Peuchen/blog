@@ -32,3 +32,11 @@ h1 {
   margin: 3vh auto;
   color: #9bf09b;
 }
+
+h2 a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  margin: 3vh auto;
+  color: green;
+  text-decoration: none;
+}
