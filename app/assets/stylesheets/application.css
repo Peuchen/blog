@@ -29,19 +29,18 @@ a {
   color: #000;
 }
 
-.mid-column {
-  margin: 0 auto;
-  width: 70%;
-  min-height: 92vh;
-  background-color: #fff;
-  padding: 3vh 3vw;
-}
-
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 5em;
   margin: 3vh auto;
   color: #9bf09b;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 3vh auto;
+  text-decoration: none;
 }
 
 button a {
@@ -55,4 +54,32 @@ button {
   padding: 1em;
   width: 20vh;
   border: none;
+}
+
+.mid-column {
+  margin: 0 auto;
+  width: 70%;
+  min-height: 92vh;
+  background-color: #fff;
+  padding: 3vh 3vw;
+}
+
+input[type=text]{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  width: 50%;
+  height: 2em;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  width: 50%;
+  height: 200px;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 5px;
 }
