@@ -1,4 +1,4 @@
-<h1><%= @article.title %></h1>
+<div class="mid-column"><h1><%= @article.title %></h1>
 
 <p><%= @article.body %></p>
 
@@ -8,9 +8,9 @@
                   method: :delete,
                   data: { confirm: "Are you sure?" } %></li>
 </ul>
-
 <h2>Comments</h2>
 <%= render @article.comments %>
 
-<h2>Add a comment:</h2>
+<h3>Add a comment:</h3>
 <%= render 'comments/form' %>
+</div>
