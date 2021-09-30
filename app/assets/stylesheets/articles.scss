@@ -2,6 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+.index-title a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  margin: 3vh auto;
+  color: green;
+  text-decoration: none;
+}
+
 .new {
   background-color: green;
 }
