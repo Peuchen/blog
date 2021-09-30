@@ -23,6 +23,12 @@ p {
   line-height: 1.75em;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #000;
+}
+
 .mid-column {
   margin: 0 auto;
   width: 70%;
