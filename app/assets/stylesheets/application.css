@@ -14,20 +14,8 @@
  *= require_self
  */
 
- html,
- body {
-   margin: 0;
-   padding: 0;
- }
-
 body {
   background-color: #c8f7c8;
-  height: 100vh;
-  width: 90vw;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 p {
@@ -38,9 +26,9 @@ p {
 .mid-column {
   margin: 0 auto;
   width: 70%;
-  height: 100%;
+  min-height: 92vh;
   background-color: #fff;
-  padding: 1vh 3vh;
+  padding: 3vh 3vw;
 }
 
 h1 {
