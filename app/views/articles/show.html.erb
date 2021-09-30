@@ -2,12 +2,10 @@
 
 <p><%= @article.body %></p>
 
-<ul>
-  <li><%= link_to "Edit", edit_article_path(@article) %></li>
-  <li><%= link_to "Destroy", article_path(@article),
+<button class="edit"><%= link_to "Edit", edit_article_path(@article) %></button>
+<button class="delete"><%= link_to "Destroy", article_path(@article),
                   method: :delete,
-                  data: { confirm: "Are you sure?" } %></li>
-</ul>
+                  data: { confirm: "Are you sure?" } %></button>
 <h2 class="comment-title">Comments</h2>
 <%= render @article.comments %>
 
